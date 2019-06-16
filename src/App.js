@@ -9,8 +9,8 @@ class App extends Component {
   state = {
      web3: {}, 
      players: [],
-     normie: int,
-     robot: int
+     normie: 0,
+     robot: 0
   };
   async componentDidMount() {
     console.log(contractData);
