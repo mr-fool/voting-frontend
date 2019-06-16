@@ -12,8 +12,11 @@ class App extends Component {
   };
   async componentDidMount() {
     console.log(contractData);
+
+    //Metamask address
     const accounts = window.ethereum.enable();
     console.log(accounts);
+    
     const voting = new web3.eth.Contract(
       contractData.abi,
       contractData.address
