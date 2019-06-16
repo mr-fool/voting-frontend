@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Web3 from "web3";
+import contractData from "./voting";
 
 function App() {
   return (
