@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+//import logo from "./logo.svg";
+//import "./App.css";
 import contractData from "./voting";
 import Web3 from "web3";
 const web3 = new Web3(window.web3.currentProvider);
@@ -9,8 +9,8 @@ class App extends Component {
   state = {
      web3: {}, 
      players: [],
-     normie: int,
-     robot: int
+     normie: 0,
+     robot: 0
   };
   async componentDidMount() {
     console.log(contractData);
@@ -19,5 +19,13 @@ class App extends Component {
       contractData.address
     );
   }
+  render() {
+    return (
+      <div className = "container" >
+        </div>
+    );
+  }
 }
-  export default App;
+
+
+export default App;
