@@ -6,7 +6,6 @@ const web3 = new Web3(window.web3.currentProvider);
 
 class App extends Component {
   state = {
-     web3: {}, 
      players: [],
      normie: 0,
      robot: 0
