@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
-import Web3 from "web3";
 
 class App extends Component {
   state = {
