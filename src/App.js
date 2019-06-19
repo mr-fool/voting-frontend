@@ -13,7 +13,7 @@ class App extends Component {
     //console.log(contractData);
 
     //Metamask address
-    const  web3  = await getWeb3;
+    const  {web3}  = await getWeb3;
     //console.log(web3);
     
     const voting = new web3.eth.Contract(
