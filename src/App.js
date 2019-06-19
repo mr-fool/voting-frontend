@@ -3,7 +3,6 @@ import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
 import Web3 from "web3";
-const web3 = new Web3(window.web3.currentProvider);
 
 class App extends Component {
   state = {
@@ -15,7 +14,7 @@ class App extends Component {
     //console.log(contractData);
 
     //Metamask address
-    const { web3 } = await getWeb3;
+    const  web3  = await getWeb3;
     //console.log(web3);
     
     const voting = new web3.eth.Contract(
