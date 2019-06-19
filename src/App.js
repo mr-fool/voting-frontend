@@ -16,13 +16,13 @@ class App extends Component {
 
     //Metamask address
     const { web3 } = await getWeb3;
-    console.log(web3);
+    //console.log(web3);
     
     const voting = new web3.eth.Contract(
       contractData.abi,
       contractData.address
     );
-    console.log(voting);
+    //console.log(voting);
   }
   render() {
     return (
