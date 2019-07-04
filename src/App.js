@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className = "container" >
-        <ImageExampleImage/>
+        <ImageExampleImage imagePath={Image/robot.jpg}/>
 
         </div>
     );
