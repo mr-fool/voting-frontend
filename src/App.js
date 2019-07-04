@@ -3,6 +3,7 @@ import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
 import ImageExample from './ImageExampleImage';
+import myImage from "./Image/robot.jpg";
 
 class App extends Component {
   state = {
@@ -26,7 +27,8 @@ class App extends Component {
   render() {
     return (
       <div className = "container" >
-        <ImageExample image={require("./Image/robot.jpg")}/>
+        <ImageExample image={myImage}/>
+
 
         </div>
     );
