@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
-import ImageExample from './ImageExampleImage';
-import myImage from "./Image/robot.jpg";
+import ImageExampleImage from './ImageExampleImage';
 
 class App extends Component {
   state = {
@@ -27,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className = "container" >
-        <ImageExample image={myImage}/>
+        <ImageExampleImage imagePath={require('./Image/robot.jpg')}/>
 
 
         </div>
