@@ -13,4 +13,4 @@ class ImageExample extends React.Component {
       )
        }
   }
-  default export ImageExample;
+export default ImageExample;
