@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className = "container" >
         <ImageExampleImage imagePath={require('./Image/robot.jpg')}/>
-
+        <ImageExampleImage imagePath={require('./Image/soyboy.jpg')} />
 
         </div>
     );
