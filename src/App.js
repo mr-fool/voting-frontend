@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
-import { Image } from 'semantic-ui-react';
+import ImageExampleImage from './ImageExampleImage';
 
 class App extends Component {
   state = {
@@ -26,6 +26,8 @@ class App extends Component {
   render() {
     return (
       <div className = "container" >
+        <ImageExampleImage/>
+
         </div>
     );
   }
