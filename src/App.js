@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className = "container" >
-        <ImageExample image={"./Image/robot.jpg"}/>
+        <ImageExample image={require("./Image/robot.jpg")}/>
 
         </div>
     );
