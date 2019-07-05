@@ -3,6 +3,7 @@ import "./App.css";
 import contractData from "./voting";
 import getWeb3 from "./web3";
 import ImageExampleImage from './ImageExampleImage';
+import "./ImageExampleImage.css";
 
 class App extends Component {
   state = {
@@ -26,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="myComponent">
+        <link rel="stylesheet" href="../src/ImageExampleImage.css" />
         <ImageExampleImage imagePath={require('./Image/robot.jpg')}/>
         <ImageExampleImage imagePath={require('./Image/soyboy.jpg')} />
 
