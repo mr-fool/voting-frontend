@@ -25,9 +25,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div className = "container" >
-        <ImageExampleImage style={{  display: inline-block, position: absolute}}imagePath={require('./Image/robot.jpg')}/>
-        <ImageExampleImage style={{  display: inline-block, position: absolute}} imagePath={require('./Image/soyboy.jpg')} />
+      <div className="myComponent">
+        <ImageExampleImage imagePath={require('./Image/robot.jpg')}/>
+        <ImageExampleImage imagePath={require('./Image/soyboy.jpg')} />
 
         </div>
     );
